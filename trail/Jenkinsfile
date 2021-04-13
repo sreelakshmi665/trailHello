@@ -94,7 +94,7 @@ pipeline{
 }
             stage("docker build"){
             steps{
-                bat "docker build -f trail/Dockerfile ."
+                bat "docker build -f trail/Dockerfile -t hello."
             }
         }
         
