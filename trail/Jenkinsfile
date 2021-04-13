@@ -9,7 +9,7 @@ pipeline{
             stage('Git-Checkout')
             {
                 steps{
-                     git 'https://github.com/sreelakshmi665/HelloWorld.git'
+                     git 'https://github.com/sreelakshmi665/trailHello.git'
                 }
             }
              stage('Clean')
